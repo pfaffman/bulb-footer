@@ -1,0 +1,16 @@
+{
+  "name": "Bulb Footer",
+  "component": true,
+  "license_url": "https://github.com/hnb-ku/Discourse-easy-footer/blob/master/LICENSE",
+  "about_url": "https://literatecomputing.com/",
+  "authors": "Jay Pfaffman",
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "logo_image": "assets/bulb-white.png"
+  },
+  "color_schemes": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
