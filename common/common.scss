@@ -12,8 +12,9 @@
     padding: 2em 0 1em 0;
   }
   .first-box {
-    max-width: 20%;
+    max-width: 25%;
     .heading {
+      // color: $tertiary
       font-size: $font-up-2;
       font-weight: bold;
       margin-bottom: 0.5em;
@@ -40,7 +41,8 @@
     }
   }
   .third-box {
-    width: 100%;
+    max-width: 30%; // JP
+    // width: 100%;
     display: flex;
     align-items: center;
     border-top: 1px solid rgba($primary-low, 0.05);
@@ -50,7 +52,8 @@
       align-items: center;
       justify-content: flex-end;
       .social-link {
-        margin: 20px 10px;
+        // margin: 20px 10px;
+        margin: 2px 1px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -75,6 +78,7 @@
   }
   .list span {
     font-weight: bold;
+    color: $tertiary; // was $secondary-high
   }
   .footer-section-link-wrapper a {
     color: $secondary; // JP was $secondary-high?

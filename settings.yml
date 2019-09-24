@@ -9,23 +9,23 @@ Heading_logo:
   description:
     en: "Text for the heading in the footer - you can use your site name for example - Max length 25 characters"
 Blurb:
-  default: "Making energy simpler, cheaper, greener"
+  default: ""
   max: 180
   description:
     en: "Enter a short blurb about your community - Max length 180 characters"
 Link_sections:
   type: list
-  default: "Members, Bulb Members|Contact|Find Us, How to find us|About"
+  default: "Find Us, How to find us| Members, Bulb Members|About Bulb|Contact"
   description:
     en: 'Add link sections. The ideal number of sections is six. One item per line in this order:<br> Text, title<br><b>Text:</b> what appears on in the footer<br><b>Title:</b> the text that appears when the item is hovered.'
 Links:
   type: list
-  default: "Members, Sign in, #, blank, Sign in|Members, Get a quote, #, blank, Get a quote|Members, Refer a friend, #, blank, |Members, Accessibility and Priority Services|Find Us, Bulb<br>155 Bishopsgate<br> London EC2M 3TQ, #, blank, |About, About us, #, blank|About, Blog, #, blank|About, Our service, #, blank|Contact, Help, #, blank|Contact, Community, #, blank|Contact, Emergencies, #, blank|Contact, Complaints, #, blank|Contact, Press, #, blank|Contact, Careers, #, blank"
+  default: "Members, Sign in, https://account.bulb.co.uk/, blank, Sign   in|Members, Get a quote, https://join.bulb.co.uk/, blank, Get a   quote|Members, Refer a friend, https://bulb.co.uk/referral, blank,   |Members, Accessibility &amp;<br> priority   services,https://bulb.co.uk/accessibility|Find Us, Bulb<br>155   Bishopsgate<br> London EC2M 3TQ, #, blank, |About Bulb, About us,   https://bulb.co.uk/about, blank|About Bulb, Blog,   https://blog.bulb.co.uk/, blank|About Bulb, Carbon Tracker,   https://bulb.co.uk/carbon-tracker|About Bulb, Our Service,   https://bulb.co.uk/service, blank|About Bulb, Our tariff,   https://bulb.co.uk/tariff, blank|About Bulb, Our energy,   https://bulb.co.uk/energy, blank|About Bulb, Bulb Generators,   https://bulb.co.uk/generators, blank|About Bulb, Bulb for business,   https://bulb.co.uk/business, blank|About Bulb, Prepay,   https://bulb.co.uk/prepay, blank|About Bulb,Privacy policy,https://bulb.co.uk/privacy, blank|About Bulb,Cookie policy,   https://bulb.co.uk/cookies, blank|About Bulb, Modern   slavery<br>statement,https://bulb.co.uk/modern-slavery-statement,blank|About   Bulb,Termms &amp; conditions, https://bulb.co.uk/terms,blank|Contact, Help, https://bulb.co.uk/help, blank|Contact, Community, https://community.bulb.co.uk/, blank|Contact, Emergencies, https://help.bulb.co.uk/hc/en-us/articles/115001228911-What-to-do-in-case-of-emergency-, blank|Contact, Complaints, https://bulb.co.uk/complaints, blank|Contact, Press, https://bulb.co.uk/press, blank|Contact, Careers, https://bulb.co.uk/careers, blank"
   description:
     en: 'Add links to link sections. One item per line in this order:<br>Parent, text, URL, target, title<br>It is a good idea to keep the number of links under each section similar<br><b>Parent:</b> the name of the parent section which this link shows under. Use the `text` value from the list above<br><b>Text:</b> the text that shows for this link<br><b>URL:</b> the path this item links to. You can use relative paths as well.<br><b>Target:</b> Choose whether this item will open in a new tab or in the same tab. Use blank to open the link in a new tab, or use self to open it in the same tab.<br><b>Title:</b> the text that shows when the link is hovered.'
 Small_links:
   type: list
-  default: "Privacy, #, self|Terms of service, #, self| About, #, self"
+  default: ""
   description:
     en: "You can add small links at the bottom of the footer like Terms of Service and Privacy. One item per line in this order:<br>Text, URL, target<br><b>Text:</b> The text that shows for the small link<br><b>URL:</b> The path of the link<br><b>Target:</b> Use blank to open the link in a new tab and use self to open it in the same tab"
 Social_links:
