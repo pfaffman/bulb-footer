@@ -34,8 +34,11 @@ $(document).ready(function() {
 
   sec = $.map(settings.Link_sections.split("|"), $.trim);
   seg = $.map(settings.Links.split("|"), $.trim);
-  soc = $.map(settings.Social_links.split("|"), $.trim);
-  fot = $.map(settings.Small_links.split("|"), $.trim);
+  let soc = $.map(settings.Social_links.split("|"), $.trim);
+  let fot = $.map(settings.Small_links.split("|"), $.trim);
+  let klass = {};
+  let target = "";
+
 
   $.each(sec, function() {
     var sec = $.map(this.split(","), $.trim);
@@ -94,7 +97,7 @@ $(document).ready(function() {
   $.each(soc, function() {
     var soc = $.map(this.split(","), $.trim);
     klass = soc[0].replace(/\s+/g, "-").toLowerCase();
-    iconName = soc[4] || soc[0].toLowerCase();
+    let iconName = soc[4] || soc[0].toLowerCase();
 
     if (soc[3] == "blank") {
       target = "_blank";
